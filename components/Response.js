@@ -29,7 +29,7 @@ const Response = props => {
             {depth < 3 ? <button onClick={e => setDisplayNewPostBox(true)}>Reply</button> : null}
             {displayNewPostBox ?
                 <div>
-                    <NewPost parentIndex={index} ancestorIndex={parentIndex} parentName={"@" + name} setDisplay={setDisplayNewPostBox}/>
+                    <NewPost parentIndex={index} ancestorIndex={parentIndex} parentName={"@" + name + " "} setDisplay={setDisplayNewPostBox}/>
                 </div> : null
             }
         </div>
