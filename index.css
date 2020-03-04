@@ -1,0 +1,64 @@
+.titleBox {
+    text-align: center;
+}
+
+h1, h3, h5, h6 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#appContainer {
+    width: 50%;
+    margin: auto;
+}
+
+#newPostContainer {
+    border: 1px solid gray;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+#newPostForm {
+    margin-bottom: 3px;
+}
+
+#newPostForm > input, textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#newPostButtonBox {
+    text-align: right;
+}
+
+#response1 {
+    border: 1px solid gray;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#response2, #response3 {
+    border: 1px solid gray;
+    margin-top: 5px;
+    width: 90%;
+}
+
+#responseBody {
+    width: 100%;
+    display: flex;
+    padding-top: 3px;
+}
+
+#responseText {
+    width: 95%;
+}
+
+#upvote {
+    width: 5%;
+}
+
+#upvote p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
